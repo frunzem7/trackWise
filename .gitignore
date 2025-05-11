@@ -33,3 +33,4 @@ build/
 .vscode/
 /.mvn/
 /spring.ai.openai.api-key.txt
+/src/main/resources/.env
