@@ -11,19 +11,19 @@ Users need to sign up, log in, and manage their accounts.
 
 ✅ Features:
 
-User registration (sign up with email & password)
-User login (JWT authentication)
-Retrieve user profile
-Update user settings
+User registration (sign up with email & password);
+User login (JWT authentication);
+Retrieve user profile;
+Update user settings.
 
 🔹 Spring Boot Components:
 
-DTOs: UserDTO
-Entities: User
-Repository: UserRepository
-Service: UserService
-Controller: UserController
-Security: JWT authentication
+DTOs: UserDTO;
+Entities: User;
+Repository: UserRepository;
+Service: UserService;
+Controller: UserController;
+Security: JWT authentication.
 
 ______________________________________________________________________________________
 
@@ -32,18 +32,18 @@ Users should be able to create and track habits.
 
 ✅ Features:
 
-Create a new habit
-Update habit details (name, frequency, goal)
-Delete a habit
-View all habits for a user
+Create a new habit;
+Update habit details (name, frequency, goal);
+Delete a habit;
+View all habits for a user.
 
 🔹 Spring Boot Components:
 
-DTOs: HabitDTO
-Entities: Habit
-Repository: HabitRepository
-Service: HabitService
-Controller: HabitController
+DTOs: HabitDTO;
+Entities: Habit;
+Repository: HabitRepository;
+Service: HabitService;
+Controller: HabitController.
 
 ______________________________________________________________________________________
 
@@ -52,17 +52,17 @@ Users need to log habit completions.
 
 ✅ Features:
 
-Log daily or weekly habit completion
-View progress history
-Track habit streaks
+Log daily or weekly habit completion;
+View progress history;
+Track habit streaks.
 
 🔹 Spring Boot Components:
 
-DTOs: HabitProgressDTO
-Entities: HabitProgress
-Repository: HabitProgressRepository
-Service: HabitProgressService
-Controller: HabitProgressController
+DTOs: HabitProgressDTO;
+Entities: HabitProgress;
+Repository: HabitProgressRepository;
+Service: HabitProgressService;
+Controller: HabitProgressController.
 
 ______________________________________________________________________________________
 
@@ -71,18 +71,18 @@ AI will provide insights and recommendations.
 
 ✅ Features:
 
-Show streaks and habit completion trends
-Predict progress trends using AI
-Suggest new habits based on user data
+Show streaks and habit completion trends;
+Predict progress trends using AI;
+Suggest new habits based on user data.
 
 🔹 Spring Boot Components:
 
-DTOs: AnalyticsDTO
-Entities: Analytics
-Repository: AnalyticsRepository
-Service: AnalyticsService
-Controller: AnalyticsController
-Kafka Topics: habit-progress, ai-recommendations
+DTOs: AnalyticsDTO;
+Entities: Analytics;
+Repository: AnalyticsRepository;
+Service: AnalyticsService;
+Controller: AnalyticsController;
+Kafka Topics: habit-progress, ai-recommendations.
 
 ______________________________________________________________________________________
 
@@ -91,18 +91,18 @@ Users receive habit reminders and motivational messages.
 
 ✅ Features:
 
-Send real-time notifications (habit due, missed check-in)
-AI-driven motivation (e.g., "You're close to a 10-day streak!")
-View notification history
+Send real-time notifications (habit due, missed check-in);
+AI-driven motivation (e.g., "You're close to a 10-day streak!");
+View notification history.
 
 🔹 Spring Boot Components:
 
-DTOs: NotificationDTO
-Entities: Notification
-Repository: NotificationRepository
-Service: NotificationService
-Controller: NotificationController
-Kafka Topics: notifications
+DTOs: NotificationDTO;
+Entities: Notification;
+Repository: NotificationRepository;
+Service: NotificationService;
+Controller: NotificationController;
+Kafka Topics: notifications.
 
 ______________________________________________________________________________________
 
